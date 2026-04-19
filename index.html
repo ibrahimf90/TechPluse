@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Premium Tech & Lifestyle Products" />
+    <title>TechPulse - Premium Tech & Lifestyle Store</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo-section">
+          <h1><i class="fas fa-bolt"></i> TechPulse</h1>
+          <p class="tagline">Premium Tech & Lifestyle</p>
+        </div>
+        <button class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav class="nav-menu" id="navMenu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#about">About</a></li>
+            <li>
+              <a href="#" class="cart-link"
+                ><i class="fas fa-shopping-cart"></i> Cart (3)</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <h2>Premium Innovation Awaits</h2>
+          <p>
+            Discover cutting-edge technology and lifestyle products curated for
+            you
+          </p>
+          <a href="#shop" class="btn btn-primary">Explore Collection</a>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <div class="feature-item">
+            <i class="fas fa-shipping-fast"></i>
+            <h4>Free Shipping</h4>
+            <p>On orders over $50</p>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-shield-alt"></i>
+            <h4>Secure Payment</h4>
+            <p>100% secure transactions</p>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-undo-alt"></i>
+            <h4>Easy Returns</h4>
+            <p>30-day return policy</p>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-headset"></i>
+            <h4>24/7 Support</h4>
+            <p>Dedicated customer service</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="products container" id="shop">
+        <div class="section-header">
+          <h3>Featured Collection</h3>
+          <p>Handpicked products for tech enthusiasts</p>
+        </div>
+        <div class="product-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop"
+                alt="Wireless Earbuds Pro"
+              />
+              <span class="badge">-15%</span>
+            </div>
+            <div class="product-info">
+              <h4>Wireless Earbuds Pro</h4>
+              <p class="description">Premium noise-canceling audio</p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(124)</span>
+              </div>
+              <div class="price-section">
+                <p class="price">$129.99</p>
+                <p class="original-price">$152.99</p>
+              </div>
+              <button class="btn btn-add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop"
+                alt="Smart Watch Elite"
+              />
+              <span class="badge">New</span>
+            </div>
+            <div class="product-info">
+              <h4>Smart Watch Elite</h4>
+              <p class="description">Advanced health tracking</p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(298)</span>
+              </div>
+              <div class="price-section">
+                <p class="price">$299.99</p>
+              </div>
+              <button class="btn btn-add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop"
+                alt="Portable Speaker"
+              />
+              <span class="badge">-20%</span>
+            </div>
+            <div class="product-info">
+              <h4>Portable Speaker</h4>
+              <p class="description">360° immersive sound</p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(89)</span>
+              </div>
+              <div class="price-section">
+                <p class="price">$79.99</p>
+                <p class="original-price">$99.99</p>
+              </div>
+              <button class="btn btn-add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://images.unsplash.com/photo-1625948515291-69613efd103f?w=500&h=500&fit=crop"
+                alt="USB-C Hub"
+              />
+              <span class="badge">Best Seller</span>
+            </div>
+            <div class="product-info">
+              <h4>USB-C Hub Pro</h4>
+              <p class="description">7-in-1 connectivity solution</p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(456)</span>
+              </div>
+              <div class="price-section">
+                <p class="price">$49.99</p>
+              </div>
+              <button class="btn btn-add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500&h=500&fit=crop"
+                alt="Wireless Charger"
+              />
+              <span class="badge">-10%</span>
+            </div>
+            <div class="product-info">
+              <h4>Wireless Charger Pro</h4>
+              <p class="description">Fast charging for all devices</p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(167)</span>
+              </div>
+              <div class="price-section">
+                <p class="price">$34.99</p>
+                <p class="original-price">$38.99</p>
+              </div>
+              <button class="btn btn-add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500&h=500&fit=crop"
+                alt="4K Webcam"
+              />
+              <span class="badge">New</span>
+            </div>
+            <div class="product-info">
+              <h4>4K Webcam Ultra</h4>
+              <p class="description">Crystal clear video streaming</p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(203)</span>
+              </div>
+              <div class="price-section">
+                <p class="price">$159.99</p>
+              </div>
+              <button class="btn btn-add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="show-all-container">
+          <a href="#shop" class="btn btn-show-all">View All Products</a>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <h3>What Our Customers Say</h3>
+          <div class="testimonial-grid">
+            <div class="testimonial-card">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>"Exceptional quality and fast shipping. Highly recommend!"</p>
+              <p class="author">- Sarah Johnson</p>
+            </div>
+            <div class="testimonial-card">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                "Amazing products at great prices. Customer service is
+                top-notch!"
+              </p>
+              <p class="author">- Michael Chen</p>
+            </div>
+            <div class="testimonial-card">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>"Best tech store I've found. Products exceed expectations!"</p>
+              <p class="author">- Emily Rodriguez</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about-content">
+            <div class="about-text">
+              <h2>About TechPulse</h2>
+              <p>
+                Welcome to TechPulse, your premier destination for cutting-edge
+                technology and premium lifestyle products. Founded in 2020,
+                we've been dedicated to bringing the latest innovations to tech
+                enthusiasts and professionals worldwide.
+              </p>
+              <p>
+                Our mission is simple: to provide exceptional quality products
+                paired with outstanding customer service. We carefully curate
+                every item in our collection to ensure it meets our rigorous
+                standards for performance, durability, and design.
+              </p>
+              <div class="about-features">
+                <div class="about-feature">
+                  <i class="fas fa-award"></i>
+                  <h4>Quality Assured</h4>
+                  <p>Every product is thoroughly tested and verified</p>
+                </div>
+                <div class="about-feature">
+                  <i class="fas fa-users"></i>
+                  <h4>Expert Team</h4>
+                  <p>Passionate tech experts ready to help</p>
+                </div>
+                <div class="about-feature">
+                  <i class="fas fa-globe"></i>
+                  <h4>Global Reach</h4>
+                  <p>Shipping to over 150 countries worldwide</p>
+                </div>
+              </div>
+            </div>
+            <div class="about-image">
+              <img
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=500&fit=crop"
+                alt="Team at TechPulse"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container">
+          <h3>Subscribe to Our Newsletter</h3>
+          <p>Get exclusive deals and tech updates</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>About TechPulse</h4>
+            <p>Your trusted source for premium tech and lifestyle products.</p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#shop">Shop</a></li>
+              <li><a href="#about">About Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 TechPulse. ALL RIGHTS RESERVED.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle functionality
+      const menuToggle = document.getElementById("menuToggle");
+      const navMenu = document.getElementById("navMenu");
+
+      // Toggle menu on hamburger click
+      menuToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+      });
+
+      // Close menu when a link is clicked
+      const navLinks = navMenu.querySelectorAll("a");
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          navMenu.classList.remove("active");
+        });
+      });
+
+      // Close menu when clicking outside
+      document.addEventListener("click", (e) => {
+        if (!e.target.closest("header")) {
+          navMenu.classList.remove("active");
+        }
+      });
+    </script>
+  </body>
+</html>
